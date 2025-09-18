@@ -85,7 +85,7 @@ const gameOver = id => {
         if(result == true) {
             window.location.reload();
         }
-    }, 10000);
+    }, 10);
 };
 
 const timer = () => {
@@ -112,5 +112,6 @@ start.addEventListener('click', () => {
 
     document.addEventListener('keypress', keyPress);
 });
+
 
 untypedfield.textContent = 'スタートボタンで開始';
